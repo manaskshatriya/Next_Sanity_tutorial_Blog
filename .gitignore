@@ -5,8 +5,7 @@
 /.pnp
 .pnp.js
 sanitynextblog/node_modules
-sanitynextblog
-
+sanitynextblog/sanity.cli.ts
 # testing
 /coverage
 
@@ -16,7 +15,7 @@ sanitynextblog
 
 # production
 /build
-
+/sanitynextblog
 # misc
 .DS_Store
 *.pem

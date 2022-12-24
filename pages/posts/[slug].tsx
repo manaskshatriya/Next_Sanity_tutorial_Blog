@@ -117,6 +117,7 @@ function Post({ post }: Props) {
 
           <label className="block mb-5 " htmlFor="">
             <span className="text-gray-700">Name</span>
+            
             <input
               {...(register("name"), { required: true })}
               className="shadow border rounded form-input py-2 focus:ring px-3 mt-1 block w-full ring-yellow-500 "
